@@ -78,12 +78,12 @@ Set avatar/server radius to 50% to make them circular.
    --dplus-spacing-app: 10px;
 
 /* Size of user and server icons */
---dplus-icon-avatar-chat: 100px;
---dplus-icon-avatar-list: 100px;
---dplus-icon-avatar-profile: 100px;
+--dplus-icon-avatar-chat: 65px;
+--dplus-icon-avatar-list: 65px;
+--dplus-icon-avatar-profile: 65px;
 
---dplus-icon-server-sidebar: 100px;
---dplus-icon-server-list: 100px;
+--dplus-icon-server-sidebar: 55px;
+--dplus-icon-server-list: 55px;
 
 /* The Home icon on the top left */
 --dplus-icon-home-dark: url(https://plusinsta.github.io/discord-plus/assets/discord/home_dark.svg);
