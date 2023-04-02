@@ -43,17 +43,17 @@
 	opacity: 0.7;
   }
   
-  [data-list-item-id="channels___1065698259101818911"]:hover .name-3BUDLf { opacity: 0.7 }
+  [data-list-item-id="channels___1088928927373860976"]:hover .name-3BUDLf { opacity: 0.7 }
   .theme-light [data-list-item-id="channels___1065698259101818911"]:hover .name-3BUDLf { opacity: 0.8 }
   
   /* PLEASE READ THE FAQ */
-  [data-list-item-id="channels___1065698259101818911"] .channelName-3KPsGw {
+  [data-list-item-id="channels___1088928927373860976"] .channelName-3KPsGw {
 	width: min-content;
 	border-radius: var(--dplus-radius-ui);
 	border: 3px solid red;
 	padding: 3px;
   }
-  [data-list-item-id="channels___1065698259101818911"] .channelName-3KPsGw::after {
+  [data-list-item-id="channels___1088928927373860976"] .channelName-3KPsGw::after {
 	content: " <- READ FIRST";
 	color: red;
   }
