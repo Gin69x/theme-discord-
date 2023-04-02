@@ -68,8 +68,8 @@
 Set avatar/server radius to 50% to make them circular.
    UI radius must be in pixels, otherwise things break. */
   --dplus-radius-ui: 10px;
-  --dplus-radius-avatar: 75%;
-  --dplus-radius-server: 75%;
+  --dplus-radius-avatar: 50%;
+  --dplus-radius-server: 50%;
 
 /* This decides how much breathing room there should be between things like buttons and content. */
   --dplus-spacing-ui: 10px;
@@ -78,9 +78,9 @@ Set avatar/server radius to 50% to make them circular.
    --dplus-spacing-app: 10px;
 
 /* Size of user and server icons */
---dplus-icon-avatar-chat: 65px;
---dplus-icon-avatar-list: 65px;
---dplus-icon-avatar-profile: 65px;
+--dplus-icon-avatar-chat: 30px;
+--dplus-icon-avatar-list: 30px;
+--dplus-icon-avatar-profile: 40px;
 
 --dplus-icon-server-sidebar: 55px;
 --dplus-icon-server-list: 55px;
