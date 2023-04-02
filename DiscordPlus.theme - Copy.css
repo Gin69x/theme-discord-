@@ -1,7 +1,7 @@
 /**
  * @name Discord+ (Source)
- * @author PlusInsta
- * @authorId 309931975102300160
+ * @author Gin
+ * @authorId 494189411513139203
  * @authorLink https://plusinsta.xyz
  * @version 3.2.1
  * @description For development of the theme. Enable alongside plugins and extras for local editing.
@@ -18,7 +18,7 @@
 .theme-dark {
 	--dplus-backdrop: url(https://i.imgur.com/Kj33kII.png);
 	
-	--dplus-accent-color-hue: 320;
+	--dplus-accent-color-hue: 120;
 	--dplus-accent-color-saturation: 60%;
 	--dplus-accent-color-lightness: 31%;
 	
@@ -27,7 +27,7 @@
 	--dplus-foreground-color-saturation-amount: 1;
 	--dplus-foreground-color-lightness-amount: 1;
 	
-	--dplus-background-color-hue: 320;
+	--dplus-background-color-hue: 120;
 	--dplus-background-color-saturation-amount: 1;
 	--dplus-background-color-lightness-amount: 1;
 	--dplus-background-color-alpha: 0.8;
@@ -35,7 +35,7 @@
 .theme-light {
 	--dplus-backdrop: url(https://i.imgur.com/Kj33kII.png);
 	
-	--dplus-accent-color-hue: 320;
+	--dplus-accent-color-hue: 120;
 	--dplus-accent-color-saturation: 60%;
 	--dplus-accent-color-lightness: 31%;
 	
@@ -44,7 +44,7 @@
 	--dplus-foreground-color-saturation-amount: 1;
 	--dplus-foreground-color-lightness-amount: 1;
 	
-	--dplus-background-color-hue: 320;
+	--dplus-background-color-hue: 120;
 	--dplus-background-color-saturation-amount: 1;
 	--dplus-background-color-lightness-amount: 1;
 	--dplus-background-color-alpha: 0.8;
