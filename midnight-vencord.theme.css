@@ -62,7 +62,7 @@
 	/* change to block to show, none to hide */
 	--discord-icon: none; /* discord icon */
 	--moon-icon: block; /* moon icon */
-	--moon-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg'); /* custom icon url */
+	--moon-icon-url: url('https://s3.filebin.net/filebin/17e6232b76852a57b733ac405e8252e12276c73fc4b221a3d7a04f12e79ee46f/ea075d66a26644cc5b8d551afc8ba311763dd238eef3ed87835412dd5fce3cd0?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=7pMj6hGeoKewqmMQILjm%2F20240229%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20240229T195632Z&X-Amz-Expires=300&X-Amz-SignedHeaders=host&response-cache-control=max-age%3D300&response-content-disposition=filename%3D"Nezuko.svg"&response-content-type=image%2Fsvg%2Bxml&X-Amz-Signature=d6a30e1ffd7bca515795723e114ee40c2c25bb61a1c6f7ca8cb8be800c826e9a'); /* custom icon url */
 	--moon-icon-size: auto;
 
 	/* filter uncolorable elements to fit theme */
