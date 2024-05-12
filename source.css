@@ -9,6 +9,11 @@
   --app-bar-size: 80px;
   --corner-text: 'Gin's Den';
   --text-normal: hsl(223, 4%, 62%);
+  --moon-spin-transition: 0.4s ease; /* moon icon spin */
+  --discord-icon: none; /* discord icon */
+	--moon-icon: block; /* moon icon */
+	--moon-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg'); /* custom icon url */
+	--moon-icon-size: auto;
   --accent-hue: 141;
   --accent-saturation: 72.9%;
   --accent-lightness: 42%;
@@ -149,6 +154,29 @@ body,
  *  CHANNELS LIST
  *
  */
+
+
+
+/* custom dm button moon icon */
+.childWrapper__01b9c > svg:not(.favoriteIcon_adf80e) {
+	display: var(--discord-icon);
+}
+.childWrapper__01b9c:has(> svg:not(.favoriteIcon_adf80e))::before {
+	content: '';
+	display: var(--moon-icon);
+	position: absolute;
+	width: 65%;
+	height: 65%;
+	background: var(--text-4);
+	-webkit-mask-image: var(--moon-icon-url);
+	-webkit-mask-size: var(--moon-icon-size);
+	-webkit-mask-repeat: none;
+}
+.wrapper_d281dd:hover .childWrapper__01b9c::before {
+	transition: background-color 0.15s ease-out, transform var(--moon-spin-transition);
+	transform: rotate(0deg) scale(1);
+}
+
 .platform-win .sidebar_e031be {
   border-radius: var(--app-card-radius) !important;
 }
