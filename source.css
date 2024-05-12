@@ -7,6 +7,8 @@
   --app-card-top-margin: 4px;
   --app-card-border-color: hsl(0,0%,14%);
   --app-bar-size: 80px;
+  --corner-text: 'Gin's Den';
+  --text-normal: hsl(223, 4%, 62%);
   --accent-hue: 141;
   --accent-saturation: 72.9%;
   --accent-lightness: 42%;
