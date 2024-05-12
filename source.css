@@ -7,13 +7,13 @@
   --app-card-top-margin: 4px;
   --app-card-border-color: hsl(0,0%,14%);
   --app-bar-size: 80px;
-  --corner-text: 'Gin's Den';
+  --corner-text: "Gin's Den";
   --text-normal: hsl(223, 4%, 62%);
   --moon-spin-transition: 0.4s ease; /* moon icon spin */
   --discord-icon: none; /* discord icon */
-	--moon-icon: block; /* moon icon */
-	--moon-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg'); /* custom icon url */
-	--moon-icon-size: auto;
+  --moon-icon: block; /* moon icon */
+  --moon-icon-url: url('https://upload.wikimedia.org/wikipedia/commons/c/c4/Font_Awesome_5_solid_moon.svg'); /* custom icon url */
+  --moon-icon-size: auto;
   --accent-hue: 141;
   --accent-saturation: 72.9%;
   --accent-lightness: 42%;
